@@ -26,7 +26,7 @@ def get():
         ss[index]["content"] = content
     return  ss
 id=['540069', '540112', '540105', '539783', '540059', '540096', '540091', '539999', '540100', '540073', '540099', '540113', '540101', '539975', '540089', '540015', '540102', '540087', '540396', '540347', '540388', '540395', '540394', '540334', '540369', '540280', '540171', '540398', '542173', '542170', '542171', '542160', '541872', '542168']
-bot = telebot.TeleBot('2082247439:AAG2S9ePBwPVycUXERXEwUTG8B0IVFNZdDY')
+bot = telebot.TeleBot('2082247439:AAFCp4wqSdN0ASzmDvrzbFfRTW6pZAdgNrI')
 def send():
     threading.Timer(60, send).start()
     data ={}
